@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -35,7 +36,7 @@ a:hover{
 
 /*BOTTONI*/
 
-.pulsante, a{
+.pulsante, a, p{
     font-size: 17px;
     font-family: 'Noto Sans', sans-serif;
     padding: 16px;
@@ -61,3 +62,57 @@ a:hover{
     background-color: #0a96e7;
 }
 
+
+/*HEADLINE*/
+.headline{
+    height: auto;
+    background-color: #b4d0e7;
+    width: 100%;
+}
+
+.box{
+    border: 1px solid black;
+    height: auto;
+    padding: 50px 50px 10px 50px;
+}
+
+.box2{
+    width: 60%;
+    margin: auto;
+    height: auto;
+}
+.box2 h1{
+    font-size: 70px;
+}
+
+.box3{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.text{
+    height: auto;
+    width: 35%;
+}
+
+.text button{
+    margin: 40px 0 40px 16px;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
+    margin-left: 16px;
+}
+
+.immage{
+    width: 65%;
+    /*background-image: url('../img/jumbo.png');
+    background-size: contain ;
+    background-repeat: no-repeat;*/
+}
+
+.prova{
+    width: 100%;
+    margin-bottom: -50px;
+}
