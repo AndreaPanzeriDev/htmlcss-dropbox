@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;800;900&display=swap%27);
+
+
 *{
     margin: 0;
     padding: 0;
@@ -15,8 +18,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 4px 20px 17px;
-    
+    padding: 16px;
 }
 
 
@@ -25,9 +27,6 @@ header{
 a{
     text-decoration: none;
     color: black ;
-    padding: 20px;
-    font-size: 20px;
-
 }
 
 a:hover{
@@ -36,8 +35,9 @@ a:hover{
 
 /*BOTTONI*/
 
-.pulsante{
-    font-size: 20px;
+.pulsante, a{
+    font-size: 17px;
+    font-family: 'Noto Sans', sans-serif;
     padding: 16px;
 }
 
