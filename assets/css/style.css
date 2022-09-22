@@ -3,3 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 4px 20px 17px;
+    
+}
+
+
+
+/*LINK*/
+a{
+    text-decoration: none;
+    color: black ;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*BOTTONI*/
+
+.pulsante{
+    font-size: 20px;
+    padding: 16px;
+}
+
+.bianco{
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.bianco:hover{
+    background-color: rgb(165, 158, 158);
+}
+
+.blu{
+    background-color: #0061ff;
+    border: none;
+    color: white;
+}
+
+.blu:hover{
+    background-color: #0a96e7;
+}
+
