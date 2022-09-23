@@ -116,3 +116,113 @@ a:hover{
     width: 100%;
     margin-bottom: -50px;
 }
+
+
+
+/*MAIN*/
+
+main{
+    border: 1px solid navy;
+    height: auto;
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.fatturazione{
+    margin: 50px  0 30px 0;
+    display: flex;
+    border: 1px solid rgb(231, 14, 231);
+}
+
+.input{
+    padding-right: 20px;
+}
+
+
+.option{
+    border: 1px solid yellow;
+    height: auto;
+    display: flex;
+}
+
+.piano{
+    border: 1px solid green;
+    width: calc( 100% / 3);
+    height: auto;
+    
+}
+
+.pacchetto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.s1 ,.s2 ,.s3, .s4{
+    border: 1px solid salmon;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: block;
+}
+
+.s1 *, .s4 *{
+    margin-bottom: 20px;
+}
+
+.s2, .s4{
+    margin-top: 30px;
+}
+.s2 *{
+    margin-bottom: 15px;
+}
+
+.s3{
+    margin-top: 35px;
+    align-items: center;
+}
+
+.s3 button{
+    width: 100%;
+}
+
+.s3 a{
+    color: blue;
+}
+
+.fa-check{
+    color: rgb(31, 31, 235);
+}
+
+.larga{
+    margin-top: 40px;
+    border: 1px solid red;
+    height: auto;
+    width: 100%;
+}
+
+.uinfo{
+    border: 1px solid black;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.lbox{
+    width: 30%;
+    height: auto;
+}
+
+.rbox{
+    width: 70%;
+    height: auto;
+    align-self: center ;
+}
+
+.rbox > button{
+    float: left;
+}
