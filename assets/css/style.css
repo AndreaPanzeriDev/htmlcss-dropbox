@@ -36,7 +36,7 @@ a:hover{
 
 /*BOTTONI*/
 
-.pulsante, a, p{
+.pulsante, a{
     font-size: 17px;
     font-family: 'Noto Sans', sans-serif;
     padding: 16px;
@@ -288,6 +288,46 @@ main{
     margin: 75px;
     margin-left: 16px;
 }
-.partner-info h1{
+.partner-info > *{
     padding: 16px;
+}
+
+.partner-info button{
+    margin-left: 16px;
+}
+
+
+
+
+/*OPZIONI*/
+.opzioni{
+    margin-top: 150px;
+}
+
+.flex{
+    display: flex;
+}
+
+.righe{
+    flex-direction: row;
+}
+
+.disposizione{
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.colonne{
+    flex-direction: column;
+    border: 1px solid tomato;
+    flex-basis: calc(30%);
+    justify-content: space-between;
+}
+
+.colonne img{
+    max-width: 100%;
+}
+
+.colonne *{
+    padding-top: 25px;
 }
