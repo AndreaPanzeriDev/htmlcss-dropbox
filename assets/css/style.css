@@ -124,7 +124,7 @@ a:hover{
 main{
     border: 1px solid navy;
     height: auto;
-    width: 50%;
+    width: 60%;
     margin: auto;
     margin-top: 150px;
 }
@@ -144,12 +144,14 @@ main{
     border: 1px solid yellow;
     height: auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .piano{
     border: 1px solid green;
-    width: calc( 100% / 3);
+    width: 30%;
     height: auto;
+    justify-content: space-between;
     
 }
 
@@ -226,3 +228,34 @@ main{
 .rbox > button{
     float: left;
 }
+
+.s2 div, .s4 div{
+    text-indent: -10px;
+    padding-left: 1.2em ;
+}
+
+
+/*TEAM*/
+
+.testo{
+    width: 60%;
+    height: auto;
+    border: 1px solid hotpink;
+}
+
+.testo > *{
+    padding: 16px;
+}
+
+.vendite{
+    width: 40%;
+    height: auto;
+    border: 1px solid hotpink;
+}
+
+.vendite > button{
+    margin: 16px;
+    float: right;
+}
+
+
