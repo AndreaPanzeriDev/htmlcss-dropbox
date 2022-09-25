@@ -331,3 +331,19 @@ main{
 .colonne *{
     padding-top: 25px;
 }
+
+
+.clienti{
+    border: 1px solid rgb(228, 67, 228);
+    width: 50%;
+    height: auto;
+    padding: 16px;
+}
+
+.clienti h1{
+    padding: 16px;
+}
+
+.clienti a{
+    color: blue;
+}
