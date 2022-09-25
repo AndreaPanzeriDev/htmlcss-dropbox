@@ -48,6 +48,10 @@ a:hover{
     color: black;
 }
 
+.bnero{
+    border: 1px solid black;
+}
+
 .bianco:hover{
     background-color: rgb(165, 158, 158);
 }
@@ -258,4 +262,32 @@ main{
     float: right;
 }
 
+.partner{
+    height: auto;
+    width: 100%;
+    border: 1px solid brown;
+    margin-top: 150px;
+    display: flex;
+}
 
+
+
+.partner-img{
+    width: 60%;
+    height: auto;
+    
+}
+.partner-img img{
+    max-width: 100%;
+}
+
+.partner-info{
+    width: 40%;
+    height: auto;
+    border: 1px solid aqua;
+    margin: 75px;
+    margin-left: 16px;
+}
+.partner-info h1{
+    padding: 16px;
+}
