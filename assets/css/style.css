@@ -452,3 +452,38 @@ main{
 .col-centrale p{
     margin-top: 0.3vw;
 }
+
+.dropboxBusiness{
+    width: 100%;
+    height: auto;
+    background-color: #b4d0e7;
+    display: flex;
+    align-items: center;
+}
+
+.larghezza{
+  width: 60%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  
+}
+
+.testo2{
+    width: 55%;
+    height: auto;
+    padding: 20px;
+    color: #61082b;
+    padding: 5em;
+}
+
+
+.vendite2{
+    width: 40%;
+    height: auto;
+    padding: 5em;
+}
+
+.vendite2 > button{
+    float: right;
+}
