@@ -75,7 +75,7 @@ a:hover{
 }
 
 .box{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     height: auto;
     padding: 50px 50px 10px 50px;
 }
@@ -126,7 +126,7 @@ a:hover{
 /*MAIN*/
 
 main{
-    border: 1px solid navy;
+    /*border: 1px solid navy;*/
     height: auto;
     width: 60%;
     margin: auto;
@@ -136,7 +136,7 @@ main{
 .fatturazione{
     margin: 50px  0 30px 0;
     display: flex;
-    border: 1px solid rgb(231, 14, 231);
+    /*border: 1px solid rgb(231, 14, 231);*/
 }
 
 .input{
@@ -145,14 +145,14 @@ main{
 
 
 .option{
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
     height: auto;
     display: flex;
     justify-content: space-between;
 }
 
 .piano{
-    border: 1px solid green;
+    border: 1px solid gray;
     width: 30%;
     height: auto;
     justify-content: space-between;
@@ -160,6 +160,7 @@ main{
 }
 
 .pacchetto{
+    border: 1px solid gray;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -169,7 +170,7 @@ main{
 
 
 .s1 ,.s2 ,.s3, .s4{
-    border: 1px solid salmon;
+     /*border: 1px solid salmon;*/
     width: 90%;
     margin: auto;
     height: auto;
@@ -206,13 +207,13 @@ main{
 
 .larga{
     margin-top: 40px;
-    border: 1px solid red;
+     /*border: 1px solid red;*/
     height: auto;
     width: 100%;
 }
 
 .uinfo{
-    border: 1px solid black;
+    border: 1px solid gray;
     height: auto;
     width: 100%;
     display: flex;
@@ -244,7 +245,7 @@ main{
 .testo{
     width: 60%;
     height: auto;
-    border: 1px solid hotpink;
+    /*border: 1px solid hotpink;*/
 }
 
 .testo > *{
@@ -254,7 +255,7 @@ main{
 .vendite{
     width: 40%;
     height: auto;
-    border: 1px solid hotpink;
+    /*border: 1px solid hotpink;*/
 }
 
 .vendite > button{
@@ -265,7 +266,7 @@ main{
 .partner{
     height: auto;
     width: 100%;
-    border: 1px solid brown;
+     /*border: 1px solid brown;*/
     margin-top: 150px;
     display: flex;
 }
@@ -284,7 +285,7 @@ main{
 .partner-info{
     width: 40%;
     height: auto;
-    border: 1px solid aqua;
+     /*border: 1px solid aqua;*/
     margin: 75px;
     margin-left: 16px;
 }
@@ -319,7 +320,7 @@ main{
 
 .colonne{
     flex-direction: column;
-    border: 1px solid tomato;
+    /*border: 1px solid tomato;*/
     flex-basis: 30%;
     justify-content: space-between;
 }
@@ -334,7 +335,7 @@ main{
 
 
 .clienti{
-    border: 1px solid rgb(228, 67, 228);
+    /*border: 1px solid rgb(228, 67, 228);*/
     width: 50%;
     height: auto;
     padding: 16px;
@@ -353,19 +354,19 @@ main{
     display: flex;
     width: 100%;
     height: auto;
-    border: 1px solid violet;
+    /*border: 1px solid violet;*/
     margin-top: 200px;
 }
 
 .box2{
-    border: 1px solid green;
+    /*border: 1px solid green; */
     flex-basis: 33%;
     height: auto;
 }
 
 .sponsor{
     width: 100%;
-    border: 1px solid peru;
+    /*border: 1px solid peru; */
     height: auto;
     margin-top: 250px;
     display: flex;
@@ -375,7 +376,7 @@ main{
 .col{
     width: calc( 100vw / 3);
     height: auto;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex;
     flex-wrap: wrap;
     
@@ -385,7 +386,7 @@ main{
     width: 50%;
     flex-wrap: wrap;
     height: auto;
-    border: 1px solid rgb(206, 24, 206);
+    /*border: 1px solid rgb(206, 24, 206);*/
     align-content: center;
     position: relative;
 }
@@ -492,7 +493,7 @@ main{
 .domande{
     width: 60%;
     height: auto;
-    border: 1px solid purple;
+    /*border: 1px solid purple; */
     margin: auto;
     margin-top: 15em;
 }
