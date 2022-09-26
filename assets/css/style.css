@@ -459,6 +459,8 @@ main{
     background-color: #b4d0e7;
     display: flex;
     align-items: center;
+    padding-top: 10em;
+    padding-bottom: 10em;
 }
 
 .larghezza{
@@ -472,18 +474,49 @@ main{
 .testo2{
     width: 55%;
     height: auto;
-    padding: 20px;
     color: #61082b;
-    padding: 5em;
+    
 }
 
 
 .vendite2{
     width: 40%;
     height: auto;
-    padding: 5em;
 }
 
 .vendite2 > button{
     float: right;
+}
+
+
+.domande{
+    width: 60%;
+    height: auto;
+    border: 1px solid purple;
+    margin: auto;
+    margin-top: 15em;
+}
+
+.domande hr{
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+
+
+.scomparsa{
+    display: flex;
+}
+
+.scomparsa > i{
+   margin-left: 40%;
+}
+
+.risposte > p{
+    display: none;
+    margin-top: 2em;
+}
+
+.risposte:hover > p{
+    display: block;
 }
