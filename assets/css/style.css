@@ -520,3 +520,53 @@ main{
 .risposte:hover > p{
     display: block;
 }
+
+
+.foot{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+.foot hr{
+    color: white;
+    width: 5%;
+    margin: 0 0 0 20%;
+    
+}
+
+.col-foot{
+    padding-top: 7em;
+    padding-bottom: 7em;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoria{
+    width: 19%;
+    padding-right: 1%;
+    height: auto;
+}
+
+.categoria p{
+    padding-top: 0.5em;
+}
+
+.categoria h2{
+    padding-bottom: 0.5em;
+}
+
+.fine{
+    width: 60%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.fine > *{
+    padding-left: 0.5em;
+    align-self: center;
+}
